@@ -19,7 +19,7 @@ Il **LocalizationService API** è parte integrante dell'architettura di **SmartL
 3. **Download e gestione dei modelli**: Recupero e gestione dei modelli per eseguire la localizzazione.
 4. **Calcolo della posizione**: Predizione della posizione del dispositivo in base ai dati RSSI forniti dall'app mobile.
 
-## b) Repositori dei Componenti
+## b) Repositories dei Componenti
 
 - **LocalizationService API**: [Link al repository](https://github.com/UniSalento-IDALab-IoTCourse-2023-2024/wot-project-2023-2024-LocalizationService-IzziBarone)
 - **DataService API**: [Link al repository](https://github.com/UniSalento-IDALab-IoTCourse-2023-2024/wot-project-2023-2024-DataService-IzziBarone.git)
