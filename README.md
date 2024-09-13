@@ -102,7 +102,14 @@ Il **LocalizationService API** è parte integrante dell'architettura di **SmartL
    ```bash
    git clone https://github.com/UniSalento-IDALab-IoTCourse-2023-2024/wot-project-2023-2024-LocalizationService-IzziBarone.git
    ```
-
+2. Environment:
+   ```python
+   DATABASE_URL=mongodb://dbloc:27017/database
+   DATABASE=database
+   PASSWORD=*****
+   USERNAME=****
+   JWT_SECRET=****** [Same as DataServiceAPI]
+   ```
 2. Docker compose:
    ```bash
    docker compose up -d
