@@ -1,0 +1,21 @@
+services:
+  locservice:
+    container_name: localization-service
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8084:80"
+    env_file:
+      - .env
+    depends_on:
+      - dbloc
+
+
+  dbloc:
+    container_name: dbloc
+    image: mongo:latest
+    volumes:
+      - loc-mongo-data:/data/db
+
+volumes:
+  loc-mongo-data:
